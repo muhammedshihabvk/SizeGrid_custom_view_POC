@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp">
+
+    <com.shabs.sizegridpoc.CustomTextView
+        android:visibility="invisible"
+        android:id="@+id/customDiagonalview"
+        android:layout_width="match_parent"
+        app:set_line_color="@color/purple_500"
+        app:set_line_width="5"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/sizegridText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMaxTextSize="20sp"
+        android:autoSizeMinTextSize="14sp"
+        android:text="40" />
+
+</RelativeLayout>
